@@ -16575,7 +16575,7 @@
 			)
 		)
 		(property "Value" "+3.3V_USB"
-			(at 228.6 161.544 0)
+			(at 230.632 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
