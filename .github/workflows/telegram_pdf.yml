@@ -1,0 +1,29 @@
+name: Send Schematic PDF to Telegram
+on: 
+  push:
+    paths:
+      - '**.kicad_sch' # Sadece şematik dosyaları değiştiğinde çalışır
+
+jobs:
+  telegram_notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install KiCad CLI
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends kicad
+
+      - name: Export Schematic PDF
+        run: |
+          # Proje adını otomatik bulur veya elinle yazabilirsin
+          kicad-cli sch export pdf --output schematic_update.pdf *.kicad_sch
+
+      - name: Send PDF to Telegram
+        run: |
+          curl -F document=@"schematic_update.pdf" \
+               -F caption="✅ Yeni commit! Şematik güncellendi. İşte güncel PDF hocam." \
+               https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendDocument?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}
