@@ -9458,6 +9458,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 212.09) (xy 368.3 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44130474-bc85-4800-ac0a-a452c90e930f")
+	)
+	(wire
+		(pts
 			(xy 181.61 86.36) (xy 184.15 86.36)
 		)
 		(stroke
@@ -11077,16 +11087,6 @@
 			(type default)
 		)
 		(uuid "efd7c2e7-88fc-4f19-9b2e-cfa2e7728568")
-	)
-	(wire
-		(pts
-			(xy 368.3 212.09) (xy 368.3 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f07ebf7b-c1ba-4022-8a98-47b7570ceda1")
 	)
 	(wire
 		(pts
@@ -20223,7 +20223,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 368.3 213.36 180)
+		(at 368.3 220.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20231,7 +20231,7 @@
 		(dnp no)
 		(uuid "c3c8cb58-a347-4414-84fa-6311532fdce9")
 		(property "Reference" "#PWR056"
-			(at 368.3 209.55 0)
+			(at 368.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20240,7 +20240,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 368.046 217.17 0)
+			(at 368.046 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20248,7 +20248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 213.36 0)
+			(at 368.3 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20257,7 +20257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 213.36 0)
+			(at 368.3 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20266,7 +20266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 368.3 213.36 0)
+			(at 368.3 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
