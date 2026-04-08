@@ -8347,7 +8347,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 176.53) (xy 231.14 181.61)
+			(xy 228.6 176.53) (xy 228.6 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8891,7 +8891,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 166.37) (xy 231.14 168.91)
+			(xy 228.6 166.37) (xy 228.6 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9394,7 +9394,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 181.61) (xy 231.14 181.61)
+			(xy 243.84 181.61) (xy 228.6 181.61)
 		)
 		(stroke
 			(width 0)
@@ -16558,7 +16558,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 231.14 166.37 0)
+		(at 228.6 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16566,7 +16566,7 @@
 		(dnp no)
 		(uuid "53afb7d3-11cc-4335-a1a6-db77c7233d41")
 		(property "Reference" "#PWR066"
-			(at 231.14 170.18 0)
+			(at 228.6 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16575,7 +16575,7 @@
 			)
 		)
 		(property "Value" "+3.3V_USB"
-			(at 230.632 162.052 0)
+			(at 228.092 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16583,7 +16583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 166.37 0)
+			(at 228.6 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16592,7 +16592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 166.37 0)
+			(at 228.6 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16601,7 +16601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 231.14 166.37 0)
+			(at 228.6 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16888,7 +16888,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 231.14 172.72 180)
+		(at 228.6 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16896,7 +16896,7 @@
 		(dnp no)
 		(uuid "5b6c07b5-2fb8-436c-95ce-b542d4ae5e16")
 		(property "Reference" "R19"
-			(at 234.188 171.958 0)
+			(at 231.648 171.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16904,7 +16904,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 234.315 173.863 0)
+			(at 231.775 173.863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16912,7 +16912,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 230.124 172.466 90)
+			(at 227.584 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16921,7 +16921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 172.72 0)
+			(at 228.6 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16930,7 +16930,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 231.14 172.72 0)
+			(at 228.6 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
