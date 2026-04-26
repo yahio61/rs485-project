@@ -8536,12 +8536,6 @@
 		(uuid "11b73ca2-836c-4c0a-982c-7a5eb8a4ab3c")
 	)
 	(junction
-		(at 30.48 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "137ab539-afc6-4888-b926-d4c9a75a1e64")
-	)
-	(junction
 		(at 76.2 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8938,6 +8932,10 @@
 		(uuid "a4b2e373-f075-40e1-8a2b-98a51b92c8a2")
 	)
 	(no_connect
+		(at 34.29 160.02)
+		(uuid "a742fcbf-d933-4655-bcc9-b1c6779f03ff")
+	)
+	(no_connect
 		(at 346.71 179.07)
 		(uuid "cef39e19-43f2-4c01-bd2a-0e746b4fa868")
 	)
@@ -9094,16 +9092,6 @@
 		)
 		(uuid "0a302103-2319-45e2-b253-d43febea86d7")
 	)
-	(wire
-		(pts
-			(xy 30.48 166.37) (xy 34.29 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aafa036-356d-4062-8c06-10a273015063")
-	)
 	(polyline
 		(pts
 			(xy 104.775 12.7) (xy 104.775 53.34)
@@ -9205,16 +9193,6 @@
 			(type default)
 		)
 		(uuid "1116287a-8bcc-4c44-892a-72ea8d6d0bed")
-	)
-	(wire
-		(pts
-			(xy 24.13 154.94) (xy 30.48 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1138435d-e3dc-4b53-acac-8af358ff4645")
 	)
 	(wire
 		(pts
@@ -9971,7 +9949,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 154.94) (xy 34.29 154.94)
+			(xy 24.13 154.94) (xy 34.29 154.94)
 		)
 		(stroke
 			(width 0)
@@ -11380,16 +11358,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 166.37) (xy 34.29 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12d44cd-f862-49f0-bfae-c15e65030f42")
-	)
-	(wire
-		(pts
 			(xy 15.24 52.07) (xy 29.21 52.07)
 		)
 		(stroke
@@ -11407,16 +11375,6 @@
 			(type default)
 		)
 		(uuid "c1c6e55d-5d1e-4bca-92fc-02f734a2862f")
-	)
-	(wire
-		(pts
-			(xy 30.48 154.94) (xy 30.48 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4082850-0f6d-40dd-877f-1e6e6fb64739")
 	)
 	(wire
 		(pts
@@ -12069,16 +12027,6 @@
 			(type default)
 		)
 		(uuid "f5ca9a49-5e60-4be8-8e4d-eae5328dca50")
-	)
-	(wire
-		(pts
-			(xy 30.48 163.83) (xy 30.48 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f66f46ff-da73-468f-94cb-48b4d76279e9")
 	)
 	(wire
 		(pts
@@ -15961,73 +15909,6 @@
 			(project "rs_485_proje"
 				(path "/c9918559-5512-44e8-b15e-1805e85a5c10"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 30.48 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cc7f9fd-0fb9-4c9e-aedb-11076f210f48")
-		(property "Reference" "R3"
-			(at 32.512 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 32.512 166.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 31.496 160.274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 30.48 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a922de8-9c5c-4f88-af52-671e947fcd4e")
-		)
-		(pin "1"
-			(uuid "c8a20d46-1f4a-44d6-82e1-e51caee35e7e")
-		)
-		(instances
-			(project "rs_485_proje"
-				(path "/c9918559-5512-44e8-b15e-1805e85a5c10"
-					(reference "R3")
 					(unit 1)
 				)
 			)
