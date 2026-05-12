@@ -9992,7 +9992,7 @@
 	)
 	(text "UART-USB"
 		(exclude_from_sim no)
-		(at 226.822 124.206 0)
+		(at 229.362 132.08 0)
 		(effects
 			(font
 				(size 5 5)
@@ -10698,7 +10698,7 @@
 	)
 	(polyline
 		(pts
-			(xy 205.994 117.983) (xy 205.994 124.46)
+			(xy 205.74 124.46) (xy 205.74 124.46)
 		)
 		(stroke
 			(width 0.5)
@@ -11743,7 +11743,7 @@
 	)
 	(polyline
 		(pts
-			(xy 205.994 12.7) (xy 205.994 117.983)
+			(xy 205.74 12.7) (xy 205.74 124.46)
 		)
 		(stroke
 			(width 0.5)
@@ -12966,7 +12966,7 @@
 	)
 	(polyline
 		(pts
-			(xy 205.994 117.983) (xy 407.924 117.983)
+			(xy 205.74 124.46) (xy 407.67 124.46)
 		)
 		(stroke
 			(width 0.5)
@@ -20504,7 +20504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 105.41 154.94 0)
 			(effects
 				(font
@@ -22228,7 +22228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 26.67 154.94 0)
 			(effects
 				(font
@@ -22846,7 +22846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07M"
+		(property "Footprint" "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Fastron_11P"
 			(at 97.79 147.32 0)
 			(effects
 				(font
@@ -24584,7 +24584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 228.6 36.83 0)
 			(effects
 				(font
@@ -28103,7 +28103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 284.48 36.83 0)
 			(effects
 				(font
@@ -30686,7 +30686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 40.64 154.94 0)
 			(effects
 				(font
@@ -31772,7 +31772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 84.455 153.67 0)
 			(effects
 				(font
@@ -32608,7 +32608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 151.4348 152.4 0)
 			(effects
 				(font
@@ -33015,7 +33015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 176.8348 152.4 0)
 			(effects
 				(font
