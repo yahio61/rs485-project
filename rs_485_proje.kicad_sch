@@ -29899,13 +29899,12 @@
 		(dnp no)
 		(uuid "ac935d8f-cef7-4c4c-a0fe-f6c684f6bfe4")
 		(property "Reference" "U10"
-			(at 299.466 203.962 0)
+			(at 287.782 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "FT232RL"
@@ -33410,7 +33409,7 @@
 		(dnp no)
 		(uuid "f3f9a373-e9bd-4686-8098-db32192412e0")
 		(property "Reference" "U11"
-			(at 340.106 166.878 0)
+			(at 341.376 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
